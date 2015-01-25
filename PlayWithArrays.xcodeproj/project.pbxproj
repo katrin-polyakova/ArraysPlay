@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321E4298495AFDAC968B3417 /* NSArray+Testutils.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E409FA619314AE3885685 /* NSArray+Testutils.m */; };
+		321E4B91774FA902FB4B460E /* Vegetables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 321E49B740C9EB7F284E49EF /* Vegetables.plist */; };
 		443E77111A6BBCFD0093EA7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E77101A6BBCFD0093EA7C /* main.m */; };
 		443E77141A6BBCFD0093EA7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E77131A6BBCFD0093EA7C /* AppDelegate.m */; };
 		443E77171A6BBCFD0093EA7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E77161A6BBCFD0093EA7C /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321E409FA619314AE3885685 /* NSArray+Testutils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Testutils.m"; sourceTree = "<group>"; };
+		321E473AD882129E52C33625 /* NSArray+Testutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Testutils.h"; sourceTree = "<group>"; };
+		321E49B740C9EB7F284E49EF /* Vegetables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Vegetables.plist; sourceTree = "<group>"; };
 		443E770B1A6BBCFD0093EA7C /* PlayWithArrays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithArrays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		443E770F1A6BBCFD0093EA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443E77101A6BBCFD0093EA7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +112,9 @@
 			children = (
 				443E772A1A6BBCFD0093EA7C /* PlayWithArraysTests.m */,
 				443E77281A6BBCFD0093EA7C /* Supporting Files */,
+				321E49B740C9EB7F284E49EF /* Vegetables.plist */,
+				321E409FA619314AE3885685 /* NSArray+Testutils.m */,
+				321E473AD882129E52C33625 /* NSArray+Testutils.h */,
 			);
 			path = PlayWithArraysTests;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321E4B91774FA902FB4B460E /* Vegetables.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				443E772B1A6BBCFD0093EA7C /* PlayWithArraysTests.m in Sources */,
+				321E4298495AFDAC968B3417 /* NSArray+Testutils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
