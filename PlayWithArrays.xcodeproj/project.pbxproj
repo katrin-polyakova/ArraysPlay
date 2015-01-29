@@ -16,6 +16,7 @@
 		443E771C1A6BBCFD0093EA7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443E771B1A6BBCFD0093EA7C /* Images.xcassets */; };
 		443E771F1A6BBCFD0093EA7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443E771D1A6BBCFD0093EA7C /* LaunchScreen.xib */; };
 		443E772B1A6BBCFD0093EA7C /* PlayWithArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E772A1A6BBCFD0093EA7C /* PlayWithArraysTests.m */; };
+		44CFDBAA1A7A7593008A17DB /* ArrayDuplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFDBA91A7A7593008A17DB /* ArrayDuplicationTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		443E77241A6BBCFD0093EA7C /* PlayWithArraysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithArraysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443E77291A6BBCFD0093EA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443E772A1A6BBCFD0093EA7C /* PlayWithArraysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayWithArraysTests.m; sourceTree = "<group>"; };
+		44CFDBA91A7A7593008A17DB /* ArrayDuplicationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDuplicationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				321E49B740C9EB7F284E49EF /* Vegetables.plist */,
 				321E409FA619314AE3885685 /* NSArray+Testutils.m */,
 				321E473AD882129E52C33625 /* NSArray+Testutils.h */,
+				44CFDBA91A7A7593008A17DB /* ArrayDuplicationTests.m */,
 			);
 			path = PlayWithArraysTests;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				443E772B1A6BBCFD0093EA7C /* PlayWithArraysTests.m in Sources */,
+				44CFDBAA1A7A7593008A17DB /* ArrayDuplicationTests.m in Sources */,
 				321E4298495AFDAC968B3417 /* NSArray+Testutils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +428,7 @@
 				443E77301A6BBCFD0093EA7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		443E77311A6BBCFD0093EA7C /* Build configuration list for PBXNativeTarget "PlayWithArraysTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				443E77331A6BBCFD0093EA7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,22 +10,26 @@
 	<string>PlayWithArrays</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>80FC2DA99DBAB19FFE2931157ED97BA1658285FA</key>
+		<string>https://github.com/katrin-polyakova/ArraysPlay.git</string>
 		<key>9EDCB052FE257A11DEC6573512F013DC7BEDF836</key>
 		<string>https://github.com/katrin-polyakova/Syntax.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PlayWithArrays/PlayWithArrays.xcodeproj</string>
+	<string>PlayWithArrays.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>80FC2DA99DBAB19FFE2931157ED97BA1658285FA</key>
+		<string>../..</string>
 		<key>9EDCB052FE257A11DEC6573512F013DC7BEDF836</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/katrin-polyakova/Syntax.git</string>
+	<string>https://github.com/katrin-polyakova/ArraysPlay.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9EDCB052FE257A11DEC6573512F013DC7BEDF836</string>
+	<string>80FC2DA99DBAB19FFE2931157ED97BA1658285FA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>9EDCB052FE257A11DEC6573512F013DC7BEDF836</string>
 			<key>IDESourceControlWCCName</key>
-			<string>homework</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>80FC2DA99DBAB19FFE2931157ED97BA1658285FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlayWithArrays</string>
 		</dict>
 	</array>
 </dict>

@@ -10,4 +10,9 @@
 + (NSArray *)loadTestListByName:(NSString *)listName clazz:(Class)clazz;
 
 - (void)logArray;
+
+- (NSArray *)arrayByRemovingDuplications;
+
+- (instancetype)countOfObjectOccurences:(id)object;
+
 @end

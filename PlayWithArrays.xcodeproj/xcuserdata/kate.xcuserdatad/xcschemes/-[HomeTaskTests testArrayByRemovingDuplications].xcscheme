@@ -29,28 +29,10 @@
             </BuildableReference>
             <SkippedTests>
                <Test
-                  Identifier = "PlayWithArraysTests/testExample01">
+                  Identifier = "HomeTaskTests/testPerformanceExample">
                </Test>
                <Test
-                  Identifier = "PlayWithArraysTests/testExample02">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample03">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample04">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample05">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample06">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExamples07">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testPerformanceExample">
+                  Identifier = "PlayWithArraysTests">
                </Test>
             </SkippedTests>
          </TestableReference>

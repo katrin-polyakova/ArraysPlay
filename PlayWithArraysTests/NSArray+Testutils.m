@@ -21,4 +21,23 @@
     NSLog(@"\nArray, count:%d \n[%@]\n", self.count, arrayAsString);
 }
 
+- (NSArray *)arrayByRemovingDuplications {
+    NSMutableArray *copyArray = [self mutableCopy];
+    for(NSUInteger i=0; i<copyArray.count-1; i++){
+        for (NSUInteger a=i+1; a<copyArray.count; a++) {
+            if ([copyArray[i] isEqualToString: copyArray[a]]){
+                [copyArray removeObjectAtIndex:a];
+            }
+        }
+    }
+    return copyArray;
+}
+
+- (instancetype) countOfObjectOccurences: (id)object {
+
+    NSArray *result = object;
+
+    return result;
+}
+
 @end
