@@ -19,6 +19,7 @@
 		443E771F1A6BBCFD0093EA7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443E771D1A6BBCFD0093EA7C /* LaunchScreen.xib */; };
 		443E772B1A6BBCFD0093EA7C /* PlayWithArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E772A1A6BBCFD0093EA7C /* PlayWithArraysTests.m */; };
 		44CFDBAA1A7A7593008A17DB /* ArrayDuplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFDBA91A7A7593008A17DB /* ArrayDuplicationTests.m */; };
+		44FA25FA1A7D8DF2006A9BCD /* Fruits.plist in Resources */ = {isa = PBXBuildFile; fileRef = 321E454515673044F745A1CC /* Fruits.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				321E4B91774FA902FB4B460E /* Vegetables.plist in Resources */,
+				44FA25FA1A7D8DF2006A9BCD /* Fruits.plist in Resources */,
 				321E4F715D2542C46E7AA220 /* Cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

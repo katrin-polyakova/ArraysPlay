@@ -55,16 +55,14 @@
 
 - (void)testAmountOfDuplications {
     NSArray *kompot = [self getTestData];
-    [kompot logArray];
-
     NSArray *filteredArray = [kompot arrayByRemovingDuplications];
+    [kompot logArray];
+    [filteredArray logArray];
     NSUInteger amount = 0;
     for(NSUInteger i=0; i<filteredArray.count; i++){
         amount = [kompot countOfObjectOccurrences:filteredArray[i]];
         NSLog(@"\n%@ - %d ", filteredArray[i], amount);
     }
-
-
 }
 
 - (void)testPerformanceExample {
