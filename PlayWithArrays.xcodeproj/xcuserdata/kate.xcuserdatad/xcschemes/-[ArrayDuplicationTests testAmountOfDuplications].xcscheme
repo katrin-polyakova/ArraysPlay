@@ -29,34 +29,16 @@
             </BuildableReference>
             <SkippedTests>
                <Test
-                  Identifier = "PlayWithArraysTests/testExample01">
+                  Identifier = "ArrayDuplicationTests/testArrayByRemovingDuplications">
                </Test>
                <Test
-                  Identifier = "PlayWithArraysTests/testExample02">
+                  Identifier = "ArrayDuplicationTests/testCountOfObjectOccurrences">
                </Test>
                <Test
-                  Identifier = "PlayWithArraysTests/testExample03">
+                  Identifier = "ArrayDuplicationTests/testPerformanceExample">
                </Test>
                <Test
-                  Identifier = "PlayWithArraysTests/testExample04">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample05">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample06">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample08">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExample09">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testExamples07">
-               </Test>
-               <Test
-                  Identifier = "PlayWithArraysTests/testPerformanceExample">
+                  Identifier = "PlayWithArraysTests">
                </Test>
             </SkippedTests>
          </TestableReference>

@@ -13,6 +13,6 @@
 
 - (NSArray *)arrayByRemovingDuplications;
 
-- (instancetype)countOfObjectOccurences:(id)object;
+- (NSUInteger)countOfObjectOccurrences:(id)object;
 
 @end

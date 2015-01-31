@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <string>Апельсин</string>
+        <string>Яблоко</string>
+        <string>Киви</string>
+        <string>Апельсин</string>
+        <string>Гранат</string>
+        <string>Мандарин</string>
+        <string>Банан</string>
+        <string>Апельсин</string>
+        <string>Груша</string>
+        <string>Грейпфрут</string>
+        <string>Мандарин</string>
+        <string>Яблоко</string>
+        <string>Апельсин</string>
+        <string>Банан</string>
+        <string>Гранат</string>
+        <string>Слива</string>
+        <string>Абрикос</string>
+        <string>Мандарин</string>
+        <string>Апельсин</string>
+        <string>Банан</string>
+        <string>Груша</string>
+        <string>Абрикос</string>
+        <string>Яблоко</string>
+        <string>Банан</string>
+        <string>Клубника</string>
+        <string>Мандарин</string>
+        <string>Банан</string>
+        <string>Абрикос</string>
+    </array>
+</plist>

@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		321E4298495AFDAC968B3417 /* NSArray+Testutils.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E409FA619314AE3885685 /* NSArray+Testutils.m */; };
+		321E4B81BDBB84E94106513E /* Fruits.plist in Resources */ = {isa = PBXBuildFile; fileRef = 321E454515673044F745A1CC /* Fruits.plist */; };
 		321E4B91774FA902FB4B460E /* Vegetables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 321E49B740C9EB7F284E49EF /* Vegetables.plist */; };
+		321E4F715D2542C46E7AA220 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 321E40C36AC0905A877A7C01 /* Cities.plist */; };
 		443E77111A6BBCFD0093EA7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E77101A6BBCFD0093EA7C /* main.m */; };
 		443E77141A6BBCFD0093EA7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E77131A6BBCFD0093EA7C /* AppDelegate.m */; };
 		443E77171A6BBCFD0093EA7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E77161A6BBCFD0093EA7C /* ViewController.m */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		321E409FA619314AE3885685 /* NSArray+Testutils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Testutils.m"; sourceTree = "<group>"; };
+		321E40C36AC0905A877A7C01 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Cities.plist; sourceTree = "<group>"; };
+		321E454515673044F745A1CC /* Fruits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Fruits.plist; sourceTree = "<group>"; };
 		321E473AD882129E52C33625 /* NSArray+Testutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Testutils.h"; sourceTree = "<group>"; };
 		321E49B740C9EB7F284E49EF /* Vegetables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Vegetables.plist; sourceTree = "<group>"; };
 		443E770B1A6BBCFD0093EA7C /* PlayWithArrays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithArrays.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +122,8 @@
 				321E409FA619314AE3885685 /* NSArray+Testutils.m */,
 				321E473AD882129E52C33625 /* NSArray+Testutils.h */,
 				44CFDBA91A7A7593008A17DB /* ArrayDuplicationTests.m */,
+				321E40C36AC0905A877A7C01 /* Cities.plist */,
+				321E454515673044F745A1CC /* Fruits.plist */,
 			);
 			path = PlayWithArraysTests;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 				443E771A1A6BBCFD0093EA7C /* Main.storyboard in Resources */,
 				443E771F1A6BBCFD0093EA7C /* LaunchScreen.xib in Resources */,
 				443E771C1A6BBCFD0093EA7C /* Images.xcassets in Resources */,
+				321E4B81BDBB84E94106513E /* Fruits.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				321E4B91774FA902FB4B460E /* Vegetables.plist in Resources */,
+				321E4F715D2542C46E7AA220 /* Cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

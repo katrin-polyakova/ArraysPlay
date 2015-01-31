@@ -26,6 +26,10 @@
     [super tearDown];
 }
 
+- (NSArray *)getTestData {
+    return [NSArray loadTestListByName:@"Fruits" clazz:[ArrayDuplicationTests class]];
+}
+
 - (void)testArrayByRemovingDuplications {
     NSArray *testArray = @[@"abc", @"abi",@"abc",@"aba",@"abc",@"aba"];
     NSArray *resultArray  = [testArray arrayByRemovingDuplications];
@@ -34,6 +38,33 @@
     XCTAssertNotEqual([resultArray indexOfObject:@"abi"], NSNotFound);
     XCTAssertNotEqual([resultArray indexOfObject:@"abc"], NSNotFound);
     XCTAssertNotEqual([resultArray indexOfObject:@"aba"], NSNotFound);
+}
+
+- (void)testCountOfObjectOccurrences{
+    NSArray *simpleData = @[@"abc", @"abc",@"aba"];
+
+    NSObject *object1 = @"abc";
+    NSLog(@"\nString '%@' contains %d times", object1, [simpleData countOfObjectOccurrences:object1]);
+    NSObject *object2 = @"cadabra";
+    NSLog(@"\nString '%@' contains %d times", object2, [simpleData countOfObjectOccurrences:object2]);
+
+    XCTAssertEqual([simpleData countOfObjectOccurrences:@"abc"], 2);
+    XCTAssertEqual([simpleData countOfObjectOccurrences: @"cadabra"], 0);
+
+}
+
+- (void)testAmountOfDuplications {
+    NSArray *kompot = [self getTestData];
+    [kompot logArray];
+
+    NSArray *filteredArray = [kompot arrayByRemovingDuplications];
+    NSUInteger amount = 0;
+    for(NSUInteger i=0; i<filteredArray.count; i++){
+        amount = [kompot countOfObjectOccurrences:filteredArray[i]];
+        NSLog(@"\n%@ - %d ", filteredArray[i], amount);
+    }
+
+
 }
 
 - (void)testPerformanceExample {

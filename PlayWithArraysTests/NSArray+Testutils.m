@@ -12,8 +12,8 @@
     NSBundle *bundle = [NSBundle bundleForClass:clazz];
     NSString *path = [bundle pathForResource:listName ofType:@"plist"];
     NSURL *url = [NSURL fileURLWithPath:path];
-    NSArray *borsh = [NSArray arrayWithContentsOfURL:url];
-    return borsh;
+    NSArray *array = [NSArray arrayWithContentsOfURL:url];
+    return array;
 }
 
 - (void)logArray {
@@ -33,10 +33,13 @@
     return copyArray;
 }
 
-- (instancetype) countOfObjectOccurences: (id)object {
-
-    NSArray *result = object;
-
+- (NSUInteger) countOfObjectOccurrences: (id)object {
+    NSUInteger result = 0;
+    for(NSUInteger i=0; i<self.count; i++){
+        if([object isEqualToString:self[i]]){
+            result=result+1;
+        }
+    }
     return result;
 }
 
